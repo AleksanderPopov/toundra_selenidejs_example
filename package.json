@@ -1,0 +1,16 @@
+{
+  "name": "toundra_demp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spec.js",
+  "scripts": {
+    "test": "npx toundra --threads 1 spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.46.0",
+    "selenidejs": "^0.2.8",
+    "toundra": "^1.0.0"
+  }
+}
