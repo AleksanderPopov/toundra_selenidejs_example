@@ -4,13 +4,15 @@
   "description": "",
   "main": "spec.js",
   "scripts": {
-    "test": "npx toundra --threads 1 spec.js"
+    "pretest": "tsc",
+    "test": "npx toundra --threads 1 build/spec.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chromedriver": "^2.46.0",
     "selenidejs": "^0.2.8",
-    "toundra": "^1.0.0"
+    "toundra": "^1.0.0",
+    "typescript": "^3.3.3"
   }
 }
